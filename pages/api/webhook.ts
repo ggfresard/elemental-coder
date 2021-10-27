@@ -10,4 +10,5 @@ export default function handler(
   res: NextApiResponse<Data>
 ) {
   console.log(req.body)
+  console.log(req.query)
 }
