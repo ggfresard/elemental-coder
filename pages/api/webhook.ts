@@ -9,7 +9,7 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  console.log(req.body, req.method)
+  console.log(req.body, req.method, req.headers)
 
   return res.json({ name: "webhoo" })
 }
