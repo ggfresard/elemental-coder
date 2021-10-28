@@ -11,5 +11,5 @@ export default function handler(
 ) {
   console.log(req.body, req.method)
 
-  return res.json({ name: "webhook" })
+  return res.json({ name: "webhoo" })
 }
