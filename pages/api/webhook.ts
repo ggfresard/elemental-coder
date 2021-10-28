@@ -10,5 +10,6 @@ export default function handler(
   res: NextApiResponse<Data>
 ) {
   console.log(req.body, req.method)
+
   return res.json({ name: "webhoo" })
 }
